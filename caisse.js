@@ -9,3 +9,6 @@ let montantdescahiers = prixcahier * quantitecahiers;
 let montantdesstylos = prixstylo * quantitestylo;
 console.log(montantdescahiers);
 console.log(montantdesstylos);
+// montant total des achats;
+let montanttotaldesachats = montantdescahiers + montantdesstylos;
+console.log(montanttotaldesachats);
