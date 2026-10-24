@@ -1,5 +1,5 @@
 // déclaration des variables;
-let buget = 20000;
+let budget = 20000;
 let prixcahier = 1500;
 let quantitecahiers = 4;
 let prixstylo = 500;
@@ -12,3 +12,11 @@ console.log(montantdesstylos);
 // montant total des achats;
 let montanttotaldesachats = montantdescahiers + montantdesstylos;
 console.log(montanttotaldesachats);
+//utilisation d'une condition pour afficher si le budget est suffisant ou pas;
+if (montanttotaldesachats <= budget){
+    console.log("budget suffisant");
+
+}else {
+    console.log("budget insuffisant");
+
+}
