@@ -7,11 +7,13 @@ let quantitestylo = 3;
 // calcul du montant des cahiers et stylos;
 let montantdescahiers = prixcahier * quantitecahiers;
 let montantdesstylos = prixstylo * quantitestylo;
-console.log(montantdescahiers);
-console.log(montantdesstylos);
+console.log("===== CAISSE =====");
+console.log("cahiers :", montantdescahiers, "FCFA");
+console.log("stylos :", montantdesstylos, "FCFA");
 // montant total des achats;
 let montanttotaldesachats = montantdescahiers + montantdesstylos;
-console.log(montanttotaldesachats);
+console.log("total :", montanttotaldesachats, "FCFA");
+console.log("budget :", budget, "FCFA")
 //utilisation d'une condition pour afficher si le budget est suffisant ou pas;
 if (montanttotaldesachats <= budget){
     console.log("budget suffisant");
@@ -20,3 +22,4 @@ if (montanttotaldesachats <= budget){
     console.log("budget insuffisant");
 
 }
+// affichage du montant total et de la verification du budget
