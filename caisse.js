@@ -7,5 +7,5 @@ let quantitestylo = 3;
 // calcul du montant des cahiers et stylos;
 let montantdescahiers = prixcahier * quantitecahiers;
 let montantdesstylos = prixstylo * quantitestylo;
-console.log("montantdescahiers");
-console.log("montantdesstylos");
+console.log(montantdescahiers);
+console.log(montantdesstylos);
